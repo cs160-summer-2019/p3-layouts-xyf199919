@@ -13,8 +13,38 @@
 		<script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
 		<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
 	</head>
+	<style>
+    .container { 
+      display: flex;
+      flex-flow: row wrap-reverse;
+      justify-content: center;
+      align-content: flex-start;
+      height: 40vw;
+    } 
+    
+    .container > div {
+      font-size: 12vw;
+      padding: .5em;
+      color: white;
+      margin: 20px;
+      background: orangered;
+
+    }
+  
+  </style>
 	<body>
 		<!-- Your layout here -->
+    
+    <div class="container">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+
+    </div>
+    
 
 	</body>
 </html>
